@@ -1,6 +1,6 @@
 # Fill-Mask
 ## Application for the 'fill-mask' ML model
-A description of the fill-mask model can be found [Here]([https://link-url-here.org](https://huggingface.co/tasks/fill-mask))
+A description of the fill-mask model can be found [https://link-url-here.org](https://huggingface.co/tasks/fill-mask)
 
 This is an application that performs the Fill-mask mode using torch on an HPC system.
 
