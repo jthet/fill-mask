@@ -7,7 +7,7 @@ This is an application that performs the Fill-mask mode using torch on an HPC sy
 ## Details 
 The fill-mask model is a language model designed to predict missing words or phrases in a given sentence or text. It uses contextual information and training data to generate the most probable completion for the masked portion of the input.
 
-This directory contains the `app.json` file to define the application using the docker image [jthet/fill_mask_app:latest](https://hub.docker.com/repository/docker/jthet/fill_mask_app/general).
+This directory contains the `app.json` file to define the application using the [jthet/fill_mask_app:latest](https://hub.docker.com/repository/docker/jthet/fill_mask_app/general) docker image.
 
 The `job.json` defines the jobs definition to be submitted to the HPC cluster through a client. 
 
