@@ -2,7 +2,7 @@
 ## Application for the 'fill-mask' ML model
 A description of the fill-mask model can be found [here](https://huggingface.co/tasks/fill-mask).
 
-This is an application that performs the Fill-mask mode using torch on an HPC system.
+This is an application that performs the Fill-mask model using torch on an HPC system.
 
 ## Details 
 The fill-mask model is a language model designed to predict missing words or phrases in a given sentence or text. It uses contextual information and training data to generate the most probable completion for the masked portion of the input.
