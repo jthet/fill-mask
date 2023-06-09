@@ -1,0 +1,20 @@
+{
+    "id": "fill-mask-jacksont",
+    "version": "0.1.0",
+    "description": "Application for the Hugging Face Fill-mask ML model",
+    "jobType": "BATCH",
+    "runtime": "SINGULARITY",
+    "runtimeOptions": ["SINGULARITY_RUN"],
+    "containerImage": "docker://jthet/fill_mask_app:latest",
+    "jobAttributes": {
+        "parameterSet": {
+            "archiveFilter": { 
+                "includeLaunchFiles": false 
+            }
+        },
+        "memoryMB": 1,
+        "nodeCount": 1,
+        "coresPerNode": 1,
+        "maxMinutes": 10
+    }
+}

@@ -53,7 +53,7 @@ def write_to_file(output_string, filename):
 def main():
 
     # destination for output file
-    directory = "TapisOutput"
+    directory = "fill-mask-output"
     filename = os.path.join(directory, "output.txt")
 
     # Confirming proper inputs

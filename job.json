@@ -1,0 +1,16 @@
+{
+    "name": "fill-mask-job",
+    "appId": "fill-mask-jacksont",
+    "appVersion": "0.1.0",
+    "execSystemId": "<system name>",
+    "parameterSet": {
+        "appArgs": [
+            {
+                "arg": " \"The goal of life is <mask>.\" " 
+            },
+            {
+                "arg": "2"
+            }
+        ]
+    }
+}
