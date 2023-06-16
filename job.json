@@ -10,6 +10,9 @@
             },
             {
                 "arg": "2"
+            },
+            {
+                "arg": "distilroberta-base"
             }
         ]
     }

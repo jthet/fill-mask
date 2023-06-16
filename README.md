@@ -42,5 +42,20 @@ Return the following output in `fill-mask-output/output.txt`:
 {'score': 0.02431384101510048, 'token': 22211, 'token_str': ' liberation', 'sequence': 'The goal of life is liberation.'}
 ```
 
+## Running with a CLI
+Run:
+```
+[local] $ python3 unmasker.py "<Enter a sentance with a <mask> word" <num_responses>
+```
+Where the CLI 2 args are the same as the args defined in the job description `job.json`
 
-
+## Running in a Container
+1) Pull the official image [jthet/fill_mask_app](https://hub.docker.com/repository/docker/jthet/fill_mask_app/general) with
+```
+[local] $ docker pull jthet/fill_mask_app:latest
+```
+2) Run the image:
+```
+[local] $ docker run jthet/fill_mask_app:latest "<Enter a sentance with a <mask> word" <num_responses>
+```
+3) The output will be printed out and output file can be inside the container.
